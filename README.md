@@ -14,7 +14,7 @@ A relational database system for an e-commerce platform built with MySQL and DBe
 Manages products, customers, orders, payments, and reviews.
 
 ## ER Diagram
-![ER Diagram](ecommerce_db.png)
+![ER Diagram](diagrams/ecommerce_db.png)
 
 ## Repository Structure
 | File | Description |
