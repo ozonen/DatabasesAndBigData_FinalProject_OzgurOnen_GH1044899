@@ -11,7 +11,6 @@ E-Commerce relational database system designed and implemented using MySQL and D
 
 ## Project Overview
 A relational database system for an e-commerce platform built with MySQL and DBeaver.
-Manages products, customers, orders, payments, and reviews.
 
 ## ER Diagram
 ![ER Diagram](diagrams/ecommerce_db.png)
@@ -19,26 +18,19 @@ Manages products, customers, orders, payments, and reviews.
 ## Repository Structure
 | File | Description |
 |------|-------------|
-| `Schema.sql` | Creates the database and all 7 tables |
+| `Schema.sql` | Creates the database system and all the necassary tables |
 | `Indexes.sql` | Creates indexes for query optimization |
-| `Data.sql` | Inserts sample data into all tables |
+| `Data.sql` | Inserts sample data into all the tables |
 | `Queries.sql` | SQL queries demonstrating CRUD operations |
 
 ## Database Tables
 - `categories` — product categories
 - `products` — items available for purchase
-- `customers` — registered users
+- `customers` — users
 - `orders` — customer orders
 - `order_items` — individual items within each order
 - `payments` — payment records per order
-- `reviews` — customer reviews on products
-
-## How to Run
-1. Open DBeaver and connect to MySQL
-2. Run `Schema.sql` to create the database and tables
-3. Run `Indexes.sql` to add indexes
-4. Run `Data.sql` to insert sample data
-5. Run `Queries.sql` to execute all queries
+- `reviews` — customer reviews 
 
 ## Tools Used
 - MySQL
