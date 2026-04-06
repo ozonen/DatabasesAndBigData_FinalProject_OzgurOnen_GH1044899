@@ -1,10 +1,7 @@
 # DatabasesAndBigData_FinalProject_OzgurOnen_GH1044899
 E-Commerce relational database system designed and implemented using MySQL and DBeaver.
 
-# E-Commerce Database System
 **B103 Databases & Big Data — Gisma University of Applied Sciences**
-
-## Student Information
 - **Name:** Ozgur Onen
 - **Student ID:** GH1044899
 - **Video Demo:** [Watch here](YOUR_VIDEO_LINK)
