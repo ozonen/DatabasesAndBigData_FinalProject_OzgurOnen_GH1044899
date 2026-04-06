@@ -7,7 +7,7 @@ E-Commerce relational database system designed and implemented using MySQL and D
 - **Video Explanation:** [Watch here](YOUR_VIDEO_LINK)
 
 ## Project Overview
-A relational database system for an e-commerce platform built with MySQL and DBeaver.
+A fully normalised relational database system for an e-commerce platform built with MySQL and DBeaver. The system manages products, customers, orders, payments, and reviews.
 
 ## ER Diagram
 ![ER Diagram](diagrams/ecommerce_db.png)
@@ -15,20 +15,25 @@ A relational database system for an e-commerce platform built with MySQL and DBe
 ## Repository Structure
 | File | Description |
 |------|-------------|
-| `Schema.sql` | Creates the database system and all the necassary tables |
-| `Indexes.sql` | Creates indexes for query optimization |
-| `Data.sql` | Inserts sample data into all the tables |
+| `Schema.sql` | Creates the database and all 7 tables |
+| `Indexes.sql` | Creates indexes for query optimisation |
+| `Data.sql` | Inserts sample data into all tables |
 | `Queries.sql` | SQL queries demonstrating CRUD operations |
 
-## Database Tables
-- `categories` — product categories
-- `products` — items available for purchase
-- `customers` — users
-- `orders` — customer orders
-- `order_items` — individual items within each order
-- `payments` — payment records per order
-- `reviews` — customer reviews 
+## Database Schema
+The system contains 7 tables:
+
+| Table | Description |
+|-------|-------------|
+| `categories` | Product categories such as Electronics and Clothing |
+| `products` | Products with name, price, stock quantity, and category |
+| `customers` | Customer personal information and contact details |
+| `orders` | Customer orders with status tracking |
+| `order_items` | Junction table linking orders to products |
+| `payments` | Payment records including method and status |
+| `reviews` | Customer ratings (1-5) and comments for products |
 
 ## Tools Used
 - MySQL
 - DBeaver
+- GitHub
