@@ -4,7 +4,7 @@ E-Commerce relational database system designed and implemented using MySQL and D
 **B103 Databases & Big Data — Gisma University of Applied Sciences**
 - **Name:** Ozgur Onen
 - **Student ID:** GH1044899
-- **Video Explanation:** [Watch here](YOUR_VIDEO_LINK)
+- **Video Explanation:** [Watch here](https://www.youtube.com/watch?v=GglxAuhQkXM)
 
 ## Project Overview
 A fully normalised relational database system for an e-commerce platform built with MySQL and DBeaver. The system manages products, customers, orders, payments, and reviews.
